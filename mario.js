@@ -1,5 +1,7 @@
-let inputHeight = parseInt(prompt("What height of Pyramid do you want?"));
-printPyramid(inputHeight);
+function determineHeightAndThenDrawPyramid(){
+  let x = document.getElementById("height").value;
+  printPyramid(x);
+}
 function printPyramid(height) {
   space = ".";
   brick = "#";
