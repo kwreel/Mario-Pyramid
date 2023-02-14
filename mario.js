@@ -3,6 +3,7 @@ function determineHeightAndThenDrawPyramid(){
   printPyramid(x);
 }
 function printPyramid(height) {
+  document.getElementById("pyramid").innerHTML = "";
   space = ".";
   brick = "#";
     for (i=1; i<=height; i++){
